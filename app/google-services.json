@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "381630954435",
+    "project_id": "social-app-dad47",
+    "storage_bucket": "social-app-dad47.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381630954435:android:5350265c8a5963bc97db76",
+        "android_client_info": {
+          "package_name": "com.vinay.socialapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgP87XB4jwspo1eaXJbCWGt7rjTRbDpmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

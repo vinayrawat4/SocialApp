@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   >
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_85sdp"
+        android:id="@+id/Story"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="repeat"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/Storyprofile"
+        android:layout_width="@dimen/_33sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_height="@dimen/_33sdp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_width="@dimen/_2sdp"
+        app:civ_border_color="@color/white"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/storylive"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_105sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/baseline_live"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/storyname"
+        android:text="V.Rawat"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_65sdp"
+        android:layout_marginStart="@dimen/_10sdp"/>
+
+</RelativeLayout>

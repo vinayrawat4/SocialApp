@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profileimgc"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_width="@dimen/_2sdp"
+        app:civ_border_color="#E31E0C"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:text="TextView"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_marginStart="@dimen/_82sdp"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>

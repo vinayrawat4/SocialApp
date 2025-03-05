@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profilenotify"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_width="@dimen/_2sdp"
+        app:civ_border_color="#E31E0C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aman mentoned you in a comment."
+        android:id="@+id/namenotify"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just now"
+        android:id="@+id/time"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_53sdp"
+        android:textColor="@color/purple_700"
+        />
+
+</RelativeLayout>

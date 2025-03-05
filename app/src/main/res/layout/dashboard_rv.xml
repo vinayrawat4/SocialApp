@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image1"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_width="@dimen/_2sdp"
+        app:civ_border_color="#E31E0C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New World"
+        android:id="@+id/name1"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name2"
+        android:text="Traveller, Life Lover"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postDesc"
+        android:text="Description"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_225sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_65sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:id="@+id/pic1"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:riv_mutate_background="true"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/baseline_menu"
+        android:layout_alignParentRight="true"
+        android:id="@+id/menu1"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_6sdp"/>
+
+    <ImageView
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:id="@+id/save1"
+        android:src="@drawable/baseline_save"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_6sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="354"
+        android:id="@+id/like1"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_255sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:drawableLeft="@drawable/baseline_hert"
+        android:drawablePadding="@dimen/_5sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="354"
+        android:id="@+id/comment1"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_255sdp"
+        android:layout_marginStart="@dimen/_95sdp"
+        android:drawableLeft="@drawable/baseline_coment"
+        android:drawablePadding="@dimen/_5sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/share1"
+        android:text="354"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_255sdp"
+        android:layout_marginStart="@dimen/_165sdp"
+        android:drawableLeft="@drawable/baseline_share"
+        android:drawablePadding="@dimen/_5sdp"/>
+
+</RelativeLayout>
